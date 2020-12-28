@@ -9,7 +9,7 @@ var firstQuestion = prompt('Is my name Boshra?, Please type Yes or No');
 
 //checking that the user input for the answer either yes or no
 if(firstQuestion.toLowerCase() === 'yes'){
-    console.log("Yes, I am Boshra and I am nice to meet you");
+    //console.log("Yes, I am Boshra and I am nice to meet you");
     alert("Yes, I am Boshra and I am nice to meet you");
 } else if (firstQuestion.toLowerCase() === 'no'){
     alert("No, My name is Boshra indeed");
@@ -22,7 +22,7 @@ var secondQuestion = prompt('Am I an engineer?, Please type Yes or No');
 
 //checking that the user input for the answer either yes or no
 if(secondQuestion.toLowerCase() === 'yes'){
-    console.log("Yes, I am a Computers Engineer");
+    //console.log("Yes, I am a Computers Engineer");
     alert("Yes, I am a Computers Engineer");
 } else if (secondQuestion.toLowerCase() === 'no'){
     alert("No, you didn't guess it");
@@ -35,7 +35,7 @@ var thirdQuestion = prompt('Am I From Jordan?, Please type Yes or No');
 
 //checking that the user input for the answer either yes or no
 if(thirdQuestion.toLowerCase() === 'yes'){
-    console.log("NO, I am Syrian, but I Love Jordan");
+    //console.log("NO, I am Syrian, but I Love Jordan");
     alert("NO, I am Syrian, but I Love Jordan");
 } else if (thirdQuestion.toLowerCase() === 'no'){
     alert("You guess it!");
@@ -48,7 +48,7 @@ var forthQuestion = prompt('Do I love Programming?, Please type Yes or No');
 
 //checking that the user input for the answer either yes or no
 if(forthQuestion.toLowerCase() === 'yes'){
-    console.log("Yes, I am in love with Codes!");
+    //console.log("Yes, I am in love with Codes!");
     alert("Yes, I am in love with Codes!");
 } else if (forthQuestion.toLowerCase() === 'no'){
     alert("You didn't guess it!");
@@ -61,7 +61,7 @@ var fifthQuestion = prompt('Do I have previous experience in Software Programmin
 
 //checking that the user input for the answer either yes or no
 if(fifthQuestion.toLowerCase() === 'yes'){
-    console.log("No, This program is my first experience!");
+    //console.log("No, This program is my first experience!");
     alert("No, This program is my first experience!");
 } else if (fifthQuestion.toLowerCase() === 'no'){
     alert("You guess it!");
