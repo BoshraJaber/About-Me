@@ -1,4 +1,4 @@
-# Lab 02: 
+# Lab 02 and Lab03:
 
 # About Me, with a guessing game
 I build a web page that asks a user to enter his/her name, and then ask 5 questions about me that the user will try to guess.
