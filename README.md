@@ -13,3 +13,8 @@ Boshra Jaber/MR. Yahya Group
 
 # Reflections and Comments
 This is a first-draft web page, and I will work on improving it in the next related labs.
+
+# New features you I added for Lab03:
+* Added 2 more questions for the user to guess.
+* also added ul and ol in my HTML code.
+* added a background image and more of CSS magic!
