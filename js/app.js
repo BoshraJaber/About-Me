@@ -97,23 +97,17 @@ if (sixthQuestion !== '150') {
 
 // Seventh Question:
 var correctAnswers = ['HTML', 'CSS', 'C'];
-var y = 0;
-for (var i = 0; i < 6; i++) {
-    var userAnswer = prompt("Can you guess my three favorite languages in software programming?")
+
+for (var i = 0; i <6 ; i++) {
+    var userAnswer = prompt("Can you guess one of my favorite languages in software programming?")
     console.log(userAnswer);
     if (userAnswer.toUpperCase() === correctAnswers[0] || userAnswer.toUpperCase() === correctAnswers[1] || userAnswer.toUpperCase() === correctAnswers[2]) {
-        y++;
-        if (y === 3) {
-            i = 6;
-        }
         alert('Correct!');
+        counterCorrect++;
+        i = 6;
     } else {
-        alert('Not Correct! I`ll give you another try!');
+        alert("Not Correct! try again!");
     }
-}
-
-if (y <= 3 && y > 0) {
-    counterCorrect++;
 }
 alert("My favorite languages are:" + correctAnswers);
 alert("you have guessed " + counterCorrect + " of my questions " + userName);
