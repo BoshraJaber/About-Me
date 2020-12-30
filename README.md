@@ -18,3 +18,13 @@ This is a first-draft web page, and I will work on improving it in the next rela
 * Added 2 more questions for the user to guess.
 * also added ul and ol in my HTML code.
 * added a background image and more of CSS magic!
+>Boshra was Navigator on: [link](https://github.com/BoshraJaber/About-Me.git)
+
+>Shayth was Driver on: [link](https://github.com/BoshraJaber/About-Me.git)
+
+### what we did in lab:04
+
+* add afunction for the correct answers
+* add a function for the uncorrect answers
+* add a function for unvaild answers
+* put every qoustion in a function 
