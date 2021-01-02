@@ -1,199 +1,118 @@
-'use strict'; // use strict mode to prevent doing mistakes
+<!DOCTYPE html>
+<html lang="en">
 
-// Ask the user for their name and send a personalized welcome message
-var userName = prompt("Please Enter your name");
-function welcomeMessage() {
-    alert("Hello " + userName + " Welcome to my Page");
-}
-var counterCorrect = 0;
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>About Me</title>
+</head>
 
-<<<<<<< HEAD
-function correctAnswers() {
-    console.log("Correct");
-    alert("You are right!");
-    counterCorrect++;
-}
+<body>
+    <header>
+        <div class="topnav">
+            <a class="active" href="index.html">About Me</a>
+            <a href="Home.html">Home</a>
+            <div class="search-container">
+                <form action="/action_page.php">
+                    <input type="text" placeholder="Search.." name="search">
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+        </div>
+    </header>
+    <main>
+        <h1>My Resume and Intrests</h1>
+        <!-- adding a new div for the intro and img-->
+        <div class="container">
+            <div class="text">
+                <h2>My Bio:</h2>
+                <br>
+                <p>Hello Everyone! Welcome to my web page!
+                <ul>
+                    <li><b>Name:</b> Boshra Jaber</li>
+                    <li><b>Nationality:</b> Syrian</li>
+                    <li><b>Residency:</b> Jordan</li>
+                    <li><b>Email:</b> <a href="www.boshrajaber94@gmil.com">Boshrajaber94@gmail.com </a></li>
+                </ul>
+            </div>
+            <div class="image">
+                <img src="https://media1.giphy.com/media/26tn33aiTi1jkl6H6/source.gif">
+            </div>
+        </div>
+        <!-- adding a new div for the education and experience-->
+        <div class="container2">
+            <div class="eduction">
+                <h2>Education History:</h2>
+                <ul>
+                    <li>Software Development at LTUC, Trainee</li>
+                    <li>Automatic Control and Computers Engineering at AL-Baath University,graduated in 2017 </li>
+                </ul>
+            </div>
+            <div class="experience">
+                <h2>Job Experience:</h2>
+                <ul>
+                    <li>Qualitas International Certification Ltd., UK, Quality Consultant</li>
+                    <li>Vigorous MNC Training Center, Sudan, Assistant Manager </li>
+                </ul>
+            </div>
+        </div>
+        <!-- adding a third div for future goals and image-->
+        <div class="container3">
+            <div class="image2">
+                <img src="https://i.stack.imgur.com/QqDfb.gif">
+            </div>
+            <div class="futuregoals">
+                <h2>Future Goals:</h2>
+                <ul>
+                    <li>Have a successful carrer in Software Development</li>
+                    <li>Give back to the community</li>
+                </ul>
+            </div>
+        </div>
 
-function notCorrectAnswer() {
-    alert("not Correct");
-    console.log("Your answer is not correct!");
-}
+        <img src="https://4.bp.blogspot.com/-XZSTDxkR28o/T3aC89x0kJI/AAAAAAAAEYA/Ol12ZX-Yvl4/s1600/PURPLE9.gif">
+        <div class="topten">
+            <h2> My Top Ten books to Read:</h2>
+            <br>
+            <ol>
+                <li>And Then There Were None by Agatha Christie</li>
+                <li>Endless Night by Agatha Christie</li>
+                <li>Angels and Demons by Dan Brown</li>
+                <li>The Da Vinci Code by Dan Brown</li>
+                <li>The Alchemist by Paulo Coelho</li>
+                <li>Antichrist by Ahmed Khaled Mustafa</li>
+                <li>The land of varmints by Ahmed Khaled Mustafa</li>
+                <li>Don't be Sad by Al Qarni</li>
+                <li>Einstein and Relativity by Mustafa Mahmoud</li>
+                <li>The Spider by Mustafa Mahmoud</li>
+            </ol>
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
 
-function inputError() {
-    alert("Error! Please enter Yes or No!");
-    console.log("Invalid Answer!");
-}
+    </main>
+    <footer>
+        <div class="bottomnav">
+            <a class="active" href="https://github.com/BoshraJaber">
+                <img class="contactImg" alt="Qries"
+                    src="https://cdn.iconscout.com/icon/free/png-512/github-153-675523.png">
+            </a>
+            <a class="active" href="https://www.linkedin.com/in/boshra-jaber/">
+                <img class="contactImg" alt="Qries"
+                    src="https://openvisualfx.com/wp-content/uploads/2019/10/linkedin-icon-logo-png-transparent.png">
+            </a>
+            <a class="active" href="https://www.facebook.com/">
+                <img class="contactImg" alt="Qries"
+                    src="https://i.pinimg.com/originals/d2/e5/35/d2e5359f8402cb8d3d7b22c463f9013b.png">
+            </a>
+            <script src="js/app.js"></script>
+    </footer>
+</body>
 
-function mainFuction(userInput) {
-    if (userInput.toLowerCase() === 'yes') {
-        console.log("Your answer is correct!");
-        correctAnswers();
-    } else if (userInput.toLowerCase() === 'no') {
-        notCorrectAnswer();
-    } else {
-        inputError();
-    }
-}
-function enterNumber() {
-    for (var i = 0; i < 4; i++) {
-        var sixthQuestion = prompt("Can you guess my height?, Hint: I am not tall :)");
-        console.log(sixthQuestion);
-        if (sixthQuestion === '150') {
-            correctAnswers();
-            i = 3;
-        } else if (sixthQuestion < 150) {
-            alert("too low! Come on! I am not that short");
-        } else {
-            alert("too high!");
-        }
-    }
-}
-
-function geuss() {
-    var correctAnswer = ['HTML', 'CSS', 'C'];
-    for (var i = 0; i < 6; i++) {
-        var userAnswer = prompt("Can you guess one of my favorite languages in software programming?")
-        console.log(userAnswer);
-        if (userAnswer.toUpperCase() === correctAnswer[0] || userAnswer.toUpperCase() === correctAnswer[1] || userAnswer.toUpperCase() === correctAnswer[2]) {
-            correctAnswers();
-            i = 6;
-        } else {
-            alert("Not Correct! try again!");
-        }
-    }
-    alert("My favorite languages are: " + correctAnswer);
-}
-
-// Welcome message:
-welcomeMessage();
-
-//First Question
-var firstQuestion = prompt('Is my name Boshra?, Please type Yes or No');
-mainFuction(firstQuestion);
-console.log(firstQuestion);
-
-
-
-//Second Question
-var secoundQuestion = prompt('Am i an engineer?, Please type Yes or No');
-mainFuction(secoundQuestion);
-console.log(secoundQuestion);
-
-
-//Third Question
-var thirdQuestion = prompt('Am I from Syria?, Please type Yes or No');
-mainFuction(thirdQuestion);
-console.log(thirdQuestion);
-
-//Forth Question
-var forthQuestion = prompt('Do I love Programming?, Please type Yes or No');
-mainFuction(forthQuestion);
-console.log(forthQuestion);
-=======
-
-function correctAnswers() {
-    console.log("Correct");
-    alert("you are right");
-    counterCorrect++;
-}
-
-function notCorrectAnswer() {
-    alert("not Correct");
-}
-
-function inputError() {
-    alert("Error with your inputs");
-}
-
-function mainFuction(userInput) {
-    if (userInput.toLowerCase() === 'yes') {
-        //console.log("Yes, I am Boshra and I am nice to meet you");
-        correctAnswers();
-    } else if (userInput.toLowerCase() === 'no') {
-        notCorrectAnswer();
-    } else {
-        inputError();
-    }
-}
-function enterNumber() {
-    for (var i = 0; i < 4; i++) {
-        var sixthQuestion = prompt("Can you guess my height?, Hint: I am not tall :)");
-        console.log(sixthQuestion);
-        if (sixthQuestion === '150') {
-            correctAnswers();
-            i = 3;
-        } else if (sixthQuestion < 150) {
-            alert("too low! Come on! I am not that short");
-        } else {
-            alert("too high!");
-        }
-    }
-}
-
-function geuss() {
-    var correctAnswer = ['HTML', 'CSS', 'C'];
-    for (var i = 0; i < 6; i++) {
-        var userAnswer = prompt("Can you guess one of my favorite languages in software programming?")
-        console.log(userAnswer);
-        if (userAnswer.toUpperCase() === correctAnswer[0] || userAnswer.toUpperCase() === correctAnswer[1] || userAnswer.toUpperCase() === correctAnswer[2]) {
-            correctAnswers();
-            i = 6;
-        } else {
-            alert("Not Correct! try again!");
-        }
-    }
-    alert("My favorite languages are:" + correctAnswer);
-
-}
->>>>>>> 8d4ea07966be89f87c5db1e4fd469941011dc7af
-
-
-// //First Question
-var firstQuestion = prompt('Is my name Boshra?, Please type Yes or No');
-mainFuction(firstQuestion);
-
-
-
-// //Second Question
-var secoundQuestion = prompt('Am i an engineer?, Please type Yes or No');
-mainFuction(secoundQuestion);
-
-
-// //Third Question
-
-var thirdQuestion = prompt('Am i from SYRIA?, Please type Yes or No');
-mainFuction(thirdQuestion);
-
-// //Forth Question
-var forthQuestion = prompt('Do I love Programming?, Please type Yes or No');
-mainFuction(forthQuestion);
-
-//Fifth Question
-var fifthQuestion = prompt('Do I have previous experience in Software Programming?, Please type Yes or No');
-mainFuction(fifthQuestion);
-<<<<<<< HEAD
-console.log(fifthQuestion);
-
-alert("Hope you get to know me " + userName);
-
-// Sixth Question:
-enterNumber();
-
-//Seventh Question:
-geuss();
-=======
-alert("Hope you get to know me " + userName);
-
-// // Sixth Question:
-
-
-enterNumber();
-// // Seventh Question:
-
-geuss();
-
-
->>>>>>> 8d4ea07966be89f87c5db1e4fd469941011dc7af
-
-
-alert("you have guessed " + counterCorrect + " of my questions " + userName);
+</html>
