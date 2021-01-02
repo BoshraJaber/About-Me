@@ -1,4 +1,4 @@
-# Lab 02 and Lab03:
+# Lab 02, Lab 03, Lab 04, Lab 05b:
 
 # About Me, with a guessing game
 I build a web page that asks a user to enter his/her name, and then ask 5 questions about me that the user will try to guess.
@@ -14,7 +14,7 @@ Boshra Jaber/MR. Yahya Group
 # Reflections and Comments
 This is a first-draft web page, and I will work on improving it in the next related labs.
 
-# New features you I added for Lab03:
+# Features added in Lab 03:
 * Added 2 more questions for the user to guess.
 * also added ul and ol in my HTML code.
 * added a background image and more of CSS magic!
@@ -22,9 +22,15 @@ This is a first-draft web page, and I will work on improving it in the next rela
 
 >Shayth was Driver on: [link](https://github.com/BoshraJaber/About-Me.git)
 
-### what we did in lab:04
+### Features added in lab 04:
 
-* add afunction for the correct answers
+* add a function for the correct answers
 * add a function for the uncorrect answers
 * add a function for unvaild answers
-* put every qoustion in a function 
+* put every question in a function 
+
+### Feauters added in Lab 05b:
+* added a header with a search bar.
+* added a fixed footer with contact information.
+* added some CSS styling to the content of the page.
+* added a varity of images with various CSS styling.
