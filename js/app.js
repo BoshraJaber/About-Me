@@ -71,13 +71,10 @@ var firstQuestion = prompt('Is my name Boshra?, Please type Yes or No');
 mainFuction(firstQuestion);
 console.log(firstQuestion);
 
-
-
 //Second Question
 var secoundQuestion = prompt('Am i an engineer?, Please type Yes or No');
 mainFuction(secoundQuestion);
 console.log(secoundQuestion);
-
 
 //Third Question
 var thirdQuestion = prompt('Am I from Syria?, Please type Yes or No');
@@ -89,38 +86,11 @@ var forthQuestion = prompt('Do I love Programming?, Please type Yes or No');
 mainFuction(forthQuestion);
 console.log(forthQuestion);
 
-// //First Question
-var firstQuestion = prompt('Is my name Boshra?, Please type Yes or No');
-mainFuction(firstQuestion);
-
-
-
-// //Second Question
-var secoundQuestion = prompt('Am i an engineer?, Please type Yes or No');
-mainFuction(secoundQuestion);
-
-
-// //Third Question
-
-var thirdQuestion = prompt('Am i from SYRIA?, Please type Yes or No');
-mainFuction(thirdQuestion);
-
-// //Forth Question
-var forthQuestion = prompt('Do I love Programming?, Please type Yes or No');
-mainFuction(forthQuestion);
-
 //Fifth Question
 var fifthQuestion = prompt('Do I have previous experience in Software Programming?, Please type Yes or No');
 mainFuction(fifthQuestion);
 console.log(fifthQuestion);
 
-alert("Hope you get to know me " + userName);
-
-// Sixth Question:
-enterNumber();
-
-//Seventh Question:
-geuss();
 alert("Hope you get to know me " + userName);
 
 //Sixth Question:
